@@ -51,22 +51,22 @@ def lambda_handler(event, context):
                     {
                         'title': 'status',
                         'value': status,
-                        'short': true
+                        'short': True
                     },
                     {
                         'title': 'deploymentId',
                         'value': deploymentId,
-                        'short': true
+                        'short': True
                     },
                     {
                         'title': 'applicationName',
                         'value': applicationName,
-                        'short': true
+                        'short': True
                     },
                     {
                         'title': 'deploymentGroupName',
                         'value': deploymentGroupName,
-                        'short': true
+                        'short': True
                     }
                 ]
             }
