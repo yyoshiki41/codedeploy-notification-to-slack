@@ -23,9 +23,9 @@ AWS Serverless Application: CodeDeploy notification to slack
 $ aws sns create-topic --name codedeploy
 ```
 
-### 2. SES Notification configuration
+### 2. Create notification rule in CodeDeploy application.
 
-Select a destination type, and then choose above SNS Topic in CodeDeploy application.
+Select events that trigger notifications, and then choose above SNS Topic as targets.
 
 ### 3. Create a customer managed CMK.
 
